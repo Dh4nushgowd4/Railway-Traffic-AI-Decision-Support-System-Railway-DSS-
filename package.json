@@ -1,0 +1,11 @@
+{
+  "name": "railway-dss-root",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm run dev --prefix railway-dss-official",
+    "start": "npm run start --prefix railway-dss-official",
+    "build": "npm run build --prefix railway-dss-official",
+    "setup:db": "npm run setup:db --prefix railway-dss-official"
+  }
+}
